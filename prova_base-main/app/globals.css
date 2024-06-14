@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo a cor de fundo e estilo de fonte global */
+  body {
+    background-color: #ADD8E6; /* Cor azul claro */
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 60px; /* Altura do footer */
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo para títulos */
+  h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para listas */
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
